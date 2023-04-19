@@ -1,5 +1,105 @@
 .mobile-menu {
-  width: 200px;
-  height: 30px;
-  background-color: #82b1e4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1e2827;
+  padding-top: 253px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(100%);
+  transition: 3000ms linear;
+  z-index: 100;
+}
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.mobile-close-btn {
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: auto;
+}
+.header-mobile-menu {
+  position: absolute;
+  top: 29px;
+  display: flex;
+  align-items: center;
+  gap: 213px;
+}
+.mobile-menu-list a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.mobile-menu-list:not(:last-child) {
+  margin-bottom: 14px;
+}
+@media screen and (max-width: 767px) {
+  .main-nav-menu {
+    display: none;
+  }
+  .nav-tel {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+  .btn-open {
+    display: none;
+  }
+  .main-nav-menu {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .main-nav-list a {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-white);
+  }
+
+  .nav-tel {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-white);
+    padding: 18px 36px;
+    background: #1e2827;
+    border-radius: 8px;
+  }
+  .main-header-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    min-width: 1176px;
+  }
 }
