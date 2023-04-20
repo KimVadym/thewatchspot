@@ -1,5 +1,55 @@
 .header {
-  width: 200px;
-  height: 30px;
-  background-color: #abe191;
+  width: 100%;
+  height: 50px;
+  background-color: #141414;
+}
+
+
+.logo {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--text-white);
+  display: flex;
+  width: 14px;
+  height: 14px;
+}
+
+.nav-item-link,
+.header-tel-link {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: calc(12 / 9);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-white);
+}
+
+.logo-svg {
+  fill: white;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 29px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list,
+.header-tel {
+  display: none;
+}
+
+.header-menu-btn {
+  border: none;
+  background-color: transparent;
 }
