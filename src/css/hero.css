@@ -1,6 +1,7 @@
 /* js slider */
 @import 'swiper/css/bundle';
 .hero{
+    font-family: 'Epilogue', sans-serif;
     background-color:#141414;
     padding-top: 122px;
     padding-bottom: 40px;
