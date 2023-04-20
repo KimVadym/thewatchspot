@@ -1,5 +1,40 @@
-<section>
+<section class="hero">
   <div class="container">
-    <a href=""></a>
+    <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide">
+        <img src="../img/mobile/hero/slider/img1.png" alt="" />
+      </li>
+      <li class="swiper-slide"></li>
+      <li class="swiper-slide"></li>
+      <li class="swiper-slide"></li>
+      <li class="swiper-slide"></li>
+    </ul>
   </div>
+  <button type="button"></button>
+  <button type="button"></button>
+  <p class="hero-txt">
+    Our watches are not just timepieces, but also an expression of your
+    personality and lifestyle. From classic designs to modern ones, we have a
+    watch to suit every taste and occasion.
+  </p>
+
+  <picture>
+    <source
+      srcset="
+        ../img/desktop/hero/hero.jpg    1x,
+        ../img/desktop/hero/hero@2x.jpg 2x
+      "
+      media="(min-width:1440px)"
+    />
+    <source
+      srcset="../img/tablet/hero/hero.jpg 1x, ../img/tablet/hero/hero@2x.jpg 2x"
+      media=" (min-width:768px)"
+    />
+    <source
+      srcset="../img/mobile/hero/hero.jpg 1x, ../img/mobile/hero/hero@2x.jpg 2x"
+      media="(max-width:767px)"
+    />
+    <img class="hero-pic" src="../img/mobile/hero/hero.jpg" alt="watch" />
+  </picture>
 </section>
