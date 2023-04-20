@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: ;
+  font-style: normal;
+  src: local(Epilogue), url(../);
+  font-display: swap;
+}
