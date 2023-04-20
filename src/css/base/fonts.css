@@ -1,22 +1,21 @@
 @font-face {
   font-family: 'Epilogue', sans-serif;
-  font: weight 300px; ;
+  font-weight: 300px;
   font-style: normal;
   src: local(Epilogue), url(/src/font/Epilogue-Light.woff);
   font-display: swap;
 }
 @font-face {
   font-family: 'Epilogue', sans-serif;
-  font: weight 400px; ;
+  font-weight: 400px;
   font-style: normal;
   src: local(Epilogue), url(/src/font/Epilogue-Regular.woff);
   font-display: swap;
 }
 @font-face {
   font-family: 'Epilogue', sans-serif;
-  font: weight 600px; ;
+  font-weight: 600px;
   font-style: normal;
   src: local(Epilogue), url(/src/font/Epilogue-SemiBold.woff);
   font-display: swap;
 }
-
