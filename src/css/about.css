@@ -7,7 +7,7 @@
 }
 
 .about-title {
-  font-family: "Epilogue", sans-serif;
+  /* font-family: "Epilogue", sans-serif; */
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25px;
@@ -17,7 +17,7 @@
 }
 
 .about-text {
-  font-family: "Epilogue", sans-serif;
+  /* font-family: "Epilogue", sans-serif; */
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
@@ -57,12 +57,12 @@ img {
     width: 704px;
   }
 
-  .container {
+  /* .container {
     max-width: 704px;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
-  }
+  } */
   
   .about-container {
     display: grid;
@@ -95,12 +95,12 @@ img {
     width: 892px;
   }
 
-  .container {
+  /* .container {
     max-width: 1176px;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
-  }
+  } */
 
   .about {
     padding-top: 80px;
