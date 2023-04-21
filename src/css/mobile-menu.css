@@ -7,9 +7,9 @@
   height: 100%;
   background: #1e2827;
   padding-top: 253px;
-  visibility: hidden;
+  /* visibility: hidden;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: none; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,7 +54,7 @@
 }
 .logo-span:before {
   content: '';
-  background-image: url(../images/logo-cr.svg);
+  background-image: url(../img/logo-cr.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
