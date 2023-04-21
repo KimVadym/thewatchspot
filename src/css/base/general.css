@@ -3,7 +3,7 @@ body {
   background: var(--bg);
 }
 .container {
-  max-width: 375px;
+  max-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
