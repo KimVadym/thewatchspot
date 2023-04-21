@@ -102,7 +102,7 @@
     }
 }
 @media screen and (min-width:1280px){
-     .hero{
+    .hero{
         padding-bottom: 80px;
     }
     .hero .container{
@@ -115,17 +115,17 @@
          margin-right: 144px;
          margin-bottom: 43px;  
     }
-     .hero-content{
+    .hero-content{
         order: -1;
         max-width: 282px;
         margin-bottom: 43px;  
     }
-     .hero-slider{
+    .hero-slider{
         margin-right: 64px;
         margin-bottom: 0;
      }
-     .hero-pic{
+    .hero-pic{
         max-width: 676px;
-     }
+    }
    
 }
