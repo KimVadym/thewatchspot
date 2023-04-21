@@ -7,6 +7,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+
 }
 @media screen and (min-width: 375px) {
   .container {
@@ -23,3 +24,5 @@ body {
     max-width: 1216px;
   }
 }
+
+
