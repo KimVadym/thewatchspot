@@ -53,7 +53,7 @@
 }
 .logo-span:before {
   content: '';
-  background-image: url(../images/logo-cr.svg);
+  background-image: url(../img/logo-cr.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
