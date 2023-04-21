@@ -1,8 +1,4 @@
-.container {
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
-}
+
 .title-catalog {
   font-family: 'Epilogue';
   font-style: normal;
@@ -203,3 +199,4 @@
     padding: 26px 0 25px;
   }
 }
+
