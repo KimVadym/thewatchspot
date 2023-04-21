@@ -6,9 +6,9 @@
   height: 100%;
   background: #1e2827;
   padding-top: 253px;
-  visibility: hidden;
+  /* visibility: hidden;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: none; */
   display: flex;
   flex-direction: column;
   align-items: center;
