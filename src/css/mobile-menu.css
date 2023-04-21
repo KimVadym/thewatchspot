@@ -1,3 +1,4 @@
+
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -51,3 +52,24 @@
 .mobile-menu-list:not(:last-child) {
   margin-bottom: 14px;
 }
+.logo-span:before {
+  content: '';
+  background-image: url(../images/logo-cr.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.logo-span {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.03em;
+  color: var(--text-white);
+}
+
