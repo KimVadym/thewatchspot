@@ -120,13 +120,15 @@
   }
 
   .header-tel-link {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    width: 159px;
-    height: 48px;
+    align-items: center; */
+    /* width: 159px;
+    height: 48px; */
     background-color: var(--bg-btn);
     border-radius: 8px;
+    padding: 18px 35px;
+    margin-left: auto;
   }
 
   .header-tel-link:is(:hover, :focus) {
@@ -143,6 +145,8 @@
 
   .header-menu-btn {
     display: none;
+  }
+  .header-tel-link {
   }
 }
 
