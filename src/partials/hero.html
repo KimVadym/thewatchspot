@@ -9,21 +9,21 @@
               <picture>
                 <source
                   srcset="
-                    ../img/tablet/hero/slider/img1.jpg    1x,
-                    ../img/tablet/hero/slider/img1@2x.jpg 2x
+                    ./img/tablet/hero/slider/img1.jpg    1x,
+                    ./img/tablet/hero/slider/img1@2x.jpg 2x
                   "
                   media=" (min-width:768px)"
                 />
                 <source
                   srcset="
-                    ../img/mobile/hero/slider/img1.jpg    1x,
-                    ../img/mobile/hero/slider/img1@2x.jpg 2x
+                    ./img/mobile/hero/slider/img1.jpg    1x,
+                    ./img/mobile/hero/slider/img1@2x.jpg 2x
                   "
                   media="(max-width:767px)"
                 />
                 <img
                   width="266"
-                  src="../img/mobile/hero/slider/img1.jpg "
+                  src="./img/mobile/hero/slider/img1.jpg "
                   alt="watch"
                 />
               </picture>
@@ -32,21 +32,21 @@
               <picture>
                 <source
                   srcset="
-                    ../img/tablet/hero/slider/img2.jpg    1x,
-                    ../img/tablet/hero/slider/img2@2x.jpg 2x
+                    ./img/tablet/hero/slider/img2.jpg    1x,
+                    ./img/tablet/hero/slider/img2@2x.jpg 2x
                   "
                   media=" (min-width:768px)"
                 />
                 <source
                   srcset="
-                    ../img/mobile/hero/slider/img2.jpg    1x,
-                    ../img/mobile/hero/slider/img2@2x.jpg 2x
+                    ./img/mobile/hero/slider/img2.jpg    1x,
+                    ./img/mobile/hero/slider/img2@2x.jpg 2x
                   "
                   media="(max-width:767px)"
                 />
                 <img
                   width="266"
-                  src="../img/mobile/hero/slider/img2.jpg "
+                  src="./img/mobile/hero/slider/img2.jpg "
                   alt="watch"
                 />
               </picture>
@@ -55,21 +55,21 @@
               <picture>
                 <source
                   srcset="
-                    ../img/tablet/hero/slider/img3.jpg    1x,
-                    ../img/tablet/hero/slider/img3@2x.jpg 2x
+                    ./img/tablet/hero/slider/img3.jpg    1x,
+                    ./img/tablet/hero/slider/img3@2x.jpg 2x
                   "
                   media=" (min-width:768px)"
                 />
                 <source
                   srcset="
-                    ../img/mobile/hero/slider/img3.jpg    1x,
-                    ../img/mobile/hero/slider/img3@2x.jpg 2x
+                    ./img/mobile/hero/slider/img3.jpg    1x,
+                    ./img/mobile/hero/slider/img3@2x.jpg 2x
                   "
                   media="(max-width:767px)"
                 />
                 <img
                   width="266"
-                  src="../img/mobile/hero/slider/img3.jpg "
+                  src="./img/mobile/hero/slider/img3.jpg "
                   alt="watch"
                 />
               </picture>
@@ -78,21 +78,21 @@
               <picture>
                 <source
                   srcset="
-                    ../img/tablet/hero/slider/img4.jpg    1x,
-                    ../img/tablet/hero/slider/img4@2x.jpg 2x
+                    ./img/tablet/hero/slider/img4.jpg    1x,
+                    ./img/tablet/hero/slider/img4@2x.jpg 2x
                   "
                   media=" (min-width:768px)"
                 />
                 <source
                   srcset="
-                    ../img/mobile/hero/slider/img4.jpg    1x,
-                    ../img/mobile/hero/slider/img4@2x.jpg 2x
+                    ./img/mobile/hero/slider/img4.jpg    1x,
+                    ./img/mobile/hero/slider/img4@2x.jpg 2x
                   "
                   media="(max-width:767px)"
                 />
                 <img
                   width="266"
-                  src="../img/mobile/hero/slider/img4.jpg "
+                  src="./img/mobile/hero/slider/img4.jpg "
                   alt="watch"
                 />
               </picture>
@@ -101,21 +101,21 @@
               <picture>
                 <source
                   srcset="
-                    ../img/tablet/hero/slider/img5.jpg    1x,
-                    ../img/tablet/hero/slider/img5@2x.jpg 2x
+                    ./img/tablet/hero/slider/img5.jpg    1x,
+                    ./img/tablet/hero/slider/img5@2x.jpg 2x
                   "
                   media=" (min-width:768px)"
                 />
                 <source
                   srcset="
-                    ../img/mobile/hero/slider/img5.jpg    1x,
-                    ../img/mobile/hero/slider/img5@2x.jpg 2x
+                    ./img/mobile/hero/slider/img5.jpg    1x,
+                    ./img/mobile/hero/slider/img5@2x.jpg 2x
                   "
                   media="(max-width:767px)"
                 />
                 <img
                   width="266"
-                  src="../img/mobile/hero/slider/img5.jpg "
+                  src="./img/mobile/hero/slider/img5.jpg "
                   alt="watch"
                 />
               </picture>
@@ -124,10 +124,18 @@
         </div>
         <div class="slider-navigation">
           <div class="slider-buttons">
-            <button class="slider-button button-prev" type="button"></button>
-            <button class="slider-button button-next" type="button"></button>
+            <button class="slider-button button-prev" type="button">
+              <svg width="18" height="18">
+                <use href="../img/symbol-defs.svg#chevron-left"></use>
+              </svg>
+            </button>
+            <button class="slider-button button-next" type="button">
+              <svg width="18" height="18">
+                <use href="../img/symbol-defs.svg#chevron-right"></use>
+              </svg>
+            </button>
           </div>
-          <div class="slider-numbers">1-5</div>
+          <div class="slider-numbers"></div>
         </div>
       </div>
       <div class="hero-content">
@@ -140,26 +148,26 @@
       <picture class="hero-pic">
         <source
           srcset="
-            ../img/desktop/hero/hero.jpg    1x,
-            ../img/desktop/hero/hero@2x.jpg 2x
+            ./img/desktop/hero/hero.jpg    1x,
+            ./img/desktop/hero/hero@2x.jpg 2x
           "
-          media="(min-width:1440px)"
+          media="(min-width:1280px)"
         />
         <source
           srcset="
-            ../img/tablet/hero/hero.jpg    1x,
-            ../img/tablet/hero/hero@2x.jpg 2x
+            ./img/tablet/hero/hero.jpg    1x,
+            ./img/tablet/hero/hero@2x.jpg 2x
           "
           media=" (min-width:768px)"
         />
         <source
           srcset="
-            ../img/mobile/hero/hero.jpg    1x,
-            ../img/mobile/hero/hero@2x.jpg 2x
+            ./img/mobile/hero/hero.jpg    1x,
+            ./img/mobile/hero/hero@2x.jpg 2x
           "
           media="(max-width:767px)"
         />
-        <img src="../img/mobile/hero/hero.jpg" alt="watch" width="335" />
+        <img src="./img/mobile/hero/hero.jpg" alt="watch" width="335" />
       </picture>
     </div>
   </div>
