@@ -12,7 +12,6 @@ img {
 }
 
 .title-sale{
-  font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height:1.25;
@@ -37,7 +36,6 @@ img {
 } 
 
 .product-name {
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 1;
@@ -46,7 +44,6 @@ img {
   margin-bottom: 8px;
 }
 .product-tag {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -71,7 +68,6 @@ img {
 }
 
 .price-first {
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -128,6 +124,7 @@ img {
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
   text-align: left;
+  
   }
 
 
@@ -146,10 +143,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
-    padding-left: 66px;
-    padding-right: 66px;
-
+    width: 612px;
+    
   }
     
 
@@ -171,9 +166,8 @@ img {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1176px;
-    padding-left: 97px;
-    padding-right: 97px;
+    width: 1021px;
+    
   }
 
   .sale-box{
@@ -200,4 +194,6 @@ img {
   .featurestion {
     margin-bottom: 0;
   }
+    
 }
+
