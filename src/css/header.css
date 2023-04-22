@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   position: absolute;
+  padding-top: 29px;
 }
 
 .header-wrap {
