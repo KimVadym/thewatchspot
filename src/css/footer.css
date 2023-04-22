@@ -1,22 +1,32 @@
+
+.footer-list {
+  list-style: none;
+  color: var(--text-white);
+}
+
+.footer-link {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: var(--text-white);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
 footer {
-  background-color: var(--text);
+  background-color: var(--bgbv);
   padding-top: 40px;
   padding-bottom: 20px;
-}
-.logo {
-  width: 40px;
-  height: 40px;
-  background: url(../img/logo-cr.svg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  margin-bottom: 40px;
 }
 
 .tel {
   margin-top: 40px;
 }
-.tel > .link {
+.tel > .footer-link {
   text-transform: uppercase;
 }
 .adressa {
@@ -27,16 +37,16 @@ footer {
   width: 40px;
   height: 40px;
   background: url(../img/logo-cr.svg);
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   margin-bottom: 40px;
 }
+
 .footer-nav {
   display: flex;
   justify-content: space-between;
 }
-
 .menu-item {
   text-transform: uppercase;
   padding-bottom: 14px;
@@ -68,6 +78,7 @@ footer {
 .social-icon {
   width: 24px;
   height: 24px;
+  fill: var(--text-white);
 }
 .social-link:hover,
 .social-link:focus {
@@ -75,6 +86,14 @@ footer {
 }
 .footer-text {
   margin-top: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  /* or 129% */
+
+  letter-spacing: -0.02em;
+
+  color: var(--text-white);
 }
 .prvacy-footer {
   margin-top: 14px;
@@ -82,15 +101,11 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  footer {
     padding-top: 80px;
   }
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
 
-  .link {
+  .footer-link {
     font-size: 18px;
     line-height: 1.33;
   }
@@ -98,7 +113,10 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
   .social-list {
     margin-top: 0;
   }
@@ -128,8 +146,8 @@ footer {
     width: 181px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .footer {
+@media screen and (min-width: 1440px) {
+  footer {
     padding-top: 104px;
     padding-bottom: 32px;
   }
@@ -138,3 +156,4 @@ footer {
     gap: 355px;
   }
 }
+
