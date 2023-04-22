@@ -1,6 +1,4 @@
-
 .title-catalog {
-  /* font-family: 'Epilogue'; */
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -10,7 +8,6 @@
   margin-bottom: 40px;
 }
 .text-catalog {
-  /* font-family: 'Epilogue'; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -23,7 +20,6 @@
   overflow: hidden;
 }
 .text-price {
-  /* font-family: 'Epilogue'; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -48,8 +44,6 @@
   width: 100%;
 }
 .button-modal {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -70,8 +64,6 @@
 
 /* -------Флип-блок--------- */
 .title-card {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -81,15 +73,13 @@
   margin-bottom: 10px;
 }
 .text-card {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
 }
-.text-description {
+.text-card-box {
   width: 162px;
 }
 .item-card {
@@ -148,15 +138,8 @@
     display: none;
   }
 }
-/* @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-} */
+
 @media screen and (min-width: 768px) {
-  /* .container {
-    width: 744px;
-  } */
   .title-catalog {
     font-size: 40px;
     line-height: 1.1;
@@ -173,9 +156,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    width: 1216px;
-  } */
   .title-catalog {
     margin-bottom: 64px;
   }
@@ -199,4 +179,3 @@
     padding: 26px 0 25px;
   }
 }
-
