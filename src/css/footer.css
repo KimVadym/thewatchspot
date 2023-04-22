@@ -1,23 +1,28 @@
-.list {
+.footer-list {
   list-style: none;
-  color: #ffffff;
+  color: var(--text-white);
 }
-/* 
-.link {
+
+.footer-link {
   text-decoration: none;
   list-style: none;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--text-white);
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-} */
+}
 
 footer {
   height: 434px;
+  background-color: var(--bgbv);
+}
+.conteiner {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .tel {
   margin-top: 40px;
@@ -83,21 +88,21 @@ footer {
   margin-top: 14px;
   margin-left: 14px;
 }
-
+/* 
 @media screen and (min-width: 375px) {
-  .conteiner {
+  .footer-conteiner {
     width: 375px;
-  }
-}
+  } 
+} */
 @media screen and (min-width: 768px) {
-  .footer {
+  footer {
     height: 476px;
   }
   .conteiner {
-    width: 768px;
-    padding: 80px 32px 20px 32px;
+    padding-top: 80px;
+    padding-bottom: 20px;
   }
-  .link {
+  .footer-link {
     font-size: 18px;
     line-height: 1.33;
    
@@ -140,12 +145,12 @@ footer {
 }
 }
 @media screen and (min-width: 1440px) {
-  .footer {
+  footer {
     height: 534px;
   }
   .conteiner {
- width: 1440px;
- padding: 104px 132px 32px 132px;
+ padding-top: 104px;
+ padding-bottom: 32px;
   }
   .footer-nav {
     gap: 355px;
