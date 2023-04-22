@@ -1,3 +1,23 @@
+
+.footer-list {
+  list-style: none;
+  color: var(--text-white);
+}
+
+.footer-link {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: var(--text-white);
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+
 footer {
   background-color: var(--text);
   padding-top: 40px;
@@ -11,6 +31,7 @@ footer {
   background-size: auto;
   background-position: center;
   margin-bottom: 40px;
+n
 }
 
 .tel {
@@ -81,6 +102,18 @@ footer {
   margin-left: 14px;
 }
 
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 476px;
+  }
+  .conteiner {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .footer-link {
+
+
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 80px;
@@ -91,6 +124,7 @@ footer {
   }
 
   .link {
+
     font-size: 18px;
     line-height: 1.33;
   }
@@ -128,10 +162,12 @@ footer {
     width: 181px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .footer {
     padding-top: 104px;
     padding-bottom: 32px;
+
   }
 
   .footer-nav {
