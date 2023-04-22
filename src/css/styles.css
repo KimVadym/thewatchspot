@@ -1,7 +1,7 @@
 @import url('./base/reset.css');
+@import url('./base/fonts.css');
 @import url('./base/value.css');
 @import url('./base/general.css');
-@import url('./header.css');
 @import url('./header.css');
 @import url('./mobile-menu.css');
 @import url('./hero.css');
