@@ -2,6 +2,7 @@ body {
   font-family: 'Epilogue', sans-serif;
   background: var(--bg);
 }
+
 .container {
   max-width: 375px;
   padding-left: 20px;
