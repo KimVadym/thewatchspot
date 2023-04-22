@@ -1,7 +1,12 @@
-.container {
+/* .container {
   position: relative;
-}
+} */
 
+.header {
+  position: absolute;
+  top: 29px;
+  width: 100%;
+}
 .logo-text {
   font-weight: 400;
   font-size: 12px;
@@ -44,8 +49,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 29px;
 }
 
 .nav-list,
