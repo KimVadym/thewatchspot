@@ -1,3 +1,21 @@
+.list {
+  list-style: none;
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
 footer {
   height: 434px;
 }
