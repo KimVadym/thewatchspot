@@ -1,3 +1,4 @@
+
 .footer-list {
   list-style: none;
   color: var(--text-white);
@@ -36,6 +37,9 @@ footer {
   width: 40px;
   height: 40px;
   background: url(../img/logo-cr.svg);
+   background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
   margin-bottom: 40px;
 }
 
@@ -152,3 +156,4 @@ footer {
     gap: 355px;
   }
 }
+
