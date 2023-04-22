@@ -1,7 +1,6 @@
 
 .header {
   width: 100%;
-  height: 250px;
   position: absolute;
   padding-top: 29px;
 }
@@ -12,7 +11,7 @@
   align-items: center;
 }
 
-.logo-text {
+.header-logo-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
@@ -23,7 +22,7 @@
   gap: 4px;
 }
 
-.logo-text::before {
+.header-logo-text::before {
   content: "";
   width: 14px;
   height: 14px;
@@ -34,24 +33,22 @@
   background-position: center;
 }
 
-.logo {
+.header-logo {
   display: block;
-  transition-property: scale, text-shadow;
-  transition-duration: 200ms;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 200ms linear;
 }
 
-.logo:is(:hover, :focus) {
+.header-logo:is(:hover, :focus) {
   scale: 1.1;
   text-shadow: 0 0 5px var(--text-white);
 }
 
-.logo:active {
+.header-logo:active {
   scale: 1;
 }
 
-.nav-list,
-.header-tel-link {
+.header-nav-list,
+.header-tel {
   display: none;
 }
 
@@ -75,64 +72,59 @@
     align-items: center;
   }
 
-  .logo-text {
+  .header-logo-text {
     font-size: 15px;
   }
 
-  .logo-text::before {
+  .header-logo-text::before {
     width: 19px;
     height: 19px;
   }
 
-  .nav-list {
+  .header-nav-list {
     display: flex;
     gap: 40px;
     margin-left: 80px;
   }
 
-  .nav-item-link,
-  .header-tel-link {
+  .header-nav-link,
+  .header-tel {
     font-size: 9px;
     font-style: normal;
     line-height: calc(12 / 9);
     text-transform: uppercase;
     color: var(--text-white);
-    transition-property: outline, scale, transform, text-shadow, font-size;
-    transition-duration: 200ms;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 200ms linear;
   }
 
-  .nav-item-link {
+  .header-nav-link {
     display: block;
   }
 
-  .nav-item-link:is(:hover, :focus, :active) {
+  .header-nav-link:is(:hover, :focus, :active) {
     scale: 1.2;
     text-shadow: 0 0 5px var(--text-white);
   }
 
   .header-tel {
-    margin-left: auto;
-  }
-
-  .header-tel-link {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 159px;
     height: 48px;
+    margin-left: auto;
     background-color: var(--bg-btn);
     border-radius: 8px;
   }
 
-  .header-tel-link:is(:hover, :focus) {
+  .header-tel:is(:hover, :focus) {
     outline: 1px solid var(--text-white);
     scale: 1.04;
     font-size: 10px;
     text-shadow: 0 0 3px var(--text-white);
   }
 
-  .header-tel-link:active {
+  .header-tel:active {
     transform: translateY(3px);
     scale: 1;
   }
