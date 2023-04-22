@@ -80,11 +80,6 @@
     .hero-txt{
         max-width: 100%;
     }
-   /* .hero .container{
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    } */
     .hero-title{
         max-width: 653px;
         font-size: 60px;
@@ -107,10 +102,6 @@
     .hero{
         padding-bottom: 80px;
     }
-    /* .hero .container{
-        max-width: 1176px;
-        padding: 0;
-    } */
     .hero-title{
          order: -2;
          max-width: 750px;
