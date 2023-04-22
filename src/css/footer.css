@@ -8,26 +8,28 @@
   list-style: none;
   cursor: pointer;
   color: var(--text-white);
-  font-family: "Epilogue";
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
+.footer-p {
+ 
+}
 
 footer {
-  height: 434px;
+ 
   background-color: var(--bgbv);
-}
-.conteiner {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .tel {
   margin-top: 40px;
 }
-.tel > .link {
+.tel > .footer-link {
   text-transform: uppercase;
 }
 .adressa {
@@ -35,10 +37,10 @@ footer {
   margin-top: 20px;
 }
 .logo {
-   width: 40px;
+  width: 40px;
   height: 40px;
   background: url(../img/logo-cr.svg);
-   margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .footer-nav {
@@ -76,6 +78,7 @@ footer {
 .social-icon {
   width: 24px;
   height: 24px;
+  fill: var(--text-white);
 }
 .social-link:hover,
 .social-link:focus {
@@ -83,6 +86,14 @@ footer {
 }
 .footer-text {
   margin-top: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  /* or 129% */
+
+  letter-spacing: -0.02em;
+
+  color: var(--text-white);
 }
 .prvacy-footer {
   margin-top: 14px;
@@ -96,16 +107,13 @@ footer {
 } */
 @media screen and (min-width: 768px) {
   footer {
-    height: 476px;
-  }
-  .conteiner {
+    /* height: 476px;  */
     padding-top: 80px;
-    padding-bottom: 20px;
   }
+
   .footer-link {
     font-size: 18px;
     line-height: 1.33;
-   
   }
   .tablet-dekstop {
     display: flex;
@@ -137,21 +145,19 @@ footer {
     justify-content: space-between;
   }
   .privacy-footer {
-  margin-top: 0;
-  margin-left: 16px;
-}
-.adressa {
-  width: 181px;
-}
+    margin-top: 0;
+    margin-left: 16px;
+  }
+  .adressa {
+    width: 181px;
+  }
 }
 @media screen and (min-width: 1440px) {
   footer {
-    height: 534px;
+    padding-top: 104px;
+    padding-bottom: 32px;
   }
-  .conteiner {
- padding-top: 104px;
- padding-bottom: 32px;
-  }
+
   .footer-nav {
     gap: 355px;
   }
