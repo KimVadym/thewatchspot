@@ -26,7 +26,7 @@
   width: 14px;
   height: 14px;
   display: block;
-  background-image: url(../img/logo.svg);
+  background-image: url(../img/logo-cr.svg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +93,7 @@
     line-height: calc(12 / 9);
     text-transform: uppercase;
     color: var(--text-white);
-    transition: 200ms linear;
+    transition: 150ms linear;
   }
 
   .header-nav-link {
@@ -106,11 +106,8 @@
   }
 
   .header-tel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 159px;
-    height: 48px;
+    display: block;
+    padding: 18px 36px;
     margin-left: auto;
     background-color: var(--bg-btn);
     border-radius: 8px;
@@ -118,9 +115,8 @@
 
   .header-tel:is(:hover, :focus) {
     outline: 1px solid var(--text-white);
-    scale: 1.04;
-    font-size: 10px;
-    text-shadow: 0 0 3px var(--text-white);
+    scale: 1.1;
+    text-shadow: 0 0 2px var(--text-white);
   }
 
   .header-tel:active {
