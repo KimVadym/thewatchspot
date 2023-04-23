@@ -96,6 +96,11 @@ footer {
   margin-left: 14px;
 }
 
+ .footer-link:is(:hover, :focus, :active) {
+    scale: 1.2;
+    text-shadow: 0 0 5px var(--text-white);
+  }
+  
 @media screen and (min-width: 768px) {
   footer {
     padding-top: 80px;
@@ -105,10 +110,7 @@ footer {
     font-size: 18px;
     line-height: 1.33;
   }
-  .footer-link:is(:hover, :focus, :active) {
-    scale: 1.2;
-    text-shadow: 0 0 5px var(--text-white);
-  }
+ 
   .tablet-dekstop {
     display: flex;
     justify-content: space-between;
