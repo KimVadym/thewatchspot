@@ -82,11 +82,9 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .text-card-box {
-  width: 162px;
-}
-.item-card {
   margin-bottom: 14px;
 }
+
 .box {
   width: 100%;
   height: 360px;
@@ -157,6 +155,9 @@
   .button-modal {
     padding: 18px 35px;
   }
+  .text-card-box {
+    margin-bottom: 16px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .title-catalog {
@@ -171,6 +172,9 @@
   }
   .list-catalog {
     margin-bottom: 80px;
+  }
+  .text-card-box {
+    margin-bottom: 20px;
   }
   .box {
     height: 325px;
