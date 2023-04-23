@@ -36,7 +36,7 @@ footer {
   width: 40px;
   height: 40px;
   background: url(../img/logo-cr.svg);
-  margin-bottom: 40px;
+
 }
 
 .footer-nav {
@@ -45,7 +45,7 @@ footer {
 }
 .menu-item {
   text-transform: uppercase;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 .menu-item .sale {
   padding-bottom: 0;
@@ -101,6 +101,11 @@ footer {
     text-shadow: 0 0 5px var(--text-white);
   }
   
+  .privacy-footer {
+    margin-top: 0;
+    margin-left: 16px;
+  }
+  
 @media screen and (min-width: 768px) {
   footer {
     padding-top: 80px;
@@ -140,10 +145,7 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-  .privacy-footer {
-    margin-top: 0;
-    margin-left: 16px;
-  }
+  
   .adressa {
     width: 181px;
   }
