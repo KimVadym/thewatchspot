@@ -139,7 +139,7 @@ img {
     width: 375px;
   }
 }
-
+}
 @media screen and (min-width: 768px) {
   .sale-container {
     width: 612px;
