@@ -72,11 +72,15 @@
   color: rgba(20, 20, 20, 0.5);
 }
 
-.description,
-.featurestion {
+.description {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px; 
+}
+
+.featurestion {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .description::before,
