@@ -1,3 +1,4 @@
+
 img {
   display: block;
   max-width: 100%;
@@ -5,8 +6,9 @@ img {
 }
 
 .sale {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
+
 .sale-watch {
   display: flex;
   gap: 20px;
@@ -16,26 +18,23 @@ img {
 .title-sale {
   font-weight: 600;
   font-size: 32px;
-  line-height:1.25;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: #141414;
   margin-bottom: 40px;
 }
 
 :first-child.item-sale-watch {
-  
   background-color: #141414;
-
 }
 
 .sale-watch-big {
- 
   background-color: #141414;
 }
 
-.item-sale-watch:not(:last-child){
- margin-bottom: 10px;
-} 
+.item-sale-watch:not(:last-child) {
+  margin-bottom: 10px;
+}
 
 .product-name {
   font-weight: 400;
@@ -82,7 +81,7 @@ img {
 .featurestion {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .description::before,
@@ -96,17 +95,17 @@ img {
 
 .title-description,
 .title-featurestion {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #141414;
-    margin-bottom: 17px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 17px;
 }
 
 .title-description::after,
@@ -115,7 +114,6 @@ img {
   width: 16px;
   height: 1px;
   background-color: #141414;
-
 }
 
 .text-description,
@@ -126,18 +124,30 @@ img {
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
   text-align: left;
-  
-  }
-
-
+}
 
 /*--------------------------------MEDIA---------------------------*/
 
+
 @media screen and (min-width: 768px) {
   .sale {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
   
+@media screen and (min-width: 375px) {
+  .sale-container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sale-container {
+    width: 612px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
   .title-sale {
     font-size: 40px;
     line-height: 1.10;
@@ -153,13 +163,15 @@ img {
       line-height: 1.05;
       margin-bottom: 8px;
     }
-   
+  
+ 
 }
 
 
 @media screen and (min-width: 1280px) {
+
   .sale{
-    margin-bottom: 160px;
+    padding-bottom: 160px;
   }
 
   .title-sale {
@@ -169,6 +181,7 @@ img {
 
   .sale-box{
     width: 981px;
+
     display: flex;
     gap: 40px;
   }
@@ -186,6 +199,7 @@ img {
      width: 369px;
   }
 
+
   .description {
     margin-bottom: 20px;
   }
@@ -197,6 +211,4 @@ img {
   .featurestion {
     margin-bottom: 0;
   }
-    
 }
-
