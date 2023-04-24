@@ -23,16 +23,19 @@ footer {
   padding-bottom: 20px;
 }
 
-.tel {
+.address {
   margin-top: 40px;
 }
+
 .tel > .footer-link {
   text-transform: uppercase;
 }
+
 .adressa {
   width: 141px;
   margin-top: 20px;
 }
+
 .logo {
   width: 40px;
   height: 40px;
@@ -41,29 +44,35 @@ footer {
   background-size: auto;
   background-position: center;
   margin-bottom: 40px;
+
 }
 
 .footer-nav {
   display: flex;
   justify-content: space-between;
 }
+
 .menu-item {
   text-transform: uppercase;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
-.menu-item .sale {
-  padding-bottom: 0;
+
+.menu-item:last-child {
+  margin-bottom: 0;
 }
+
 .social-list {
   display: flex;
   justify-content: start;
   gap: 14px;
-  margin-top: 40px;
+
 }
+
 .social-item {
   width: 40px;
   height: 40px;
 }
+
 .social-link {
   display: flex;
   align-items: center;
@@ -75,28 +84,32 @@ footer {
   border-radius: 10px;
   background-color: transparent;
 }
+
 .social-icon {
   width: 24px;
   height: 24px;
   fill: var(--text-white);
 }
+
 .social-link:hover,
 .social-link:focus {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.social-footer-menu {
+   margin-top: 40px;
+}
+
 .footer-text {
   margin-top: 80px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
-  /* or 129% */
-
   letter-spacing: -0.02em;
-
   color: var(--text-white);
 }
-.prvacy-footer {
-  margin-top: 14px;
+
+.privacy-footer {
   margin-left: 14px;
 }
 
@@ -129,6 +142,10 @@ footer {
   .footer-nav {
     gap: 142px;
   }
+  .social-footer-menu {
+   margin-top: 0;
+}
+
   .social-list {
     gap: 16px;
   }
@@ -145,14 +162,14 @@ footer {
     justify-content: space-between;
   }
   .privacy-footer {
-    margin-top: 0;
     margin-left: 16px;
   }
   .adressa {
     width: 181px;
   }
 }
-@media screen and (min-width: 1440px) {
+
+@media screen and (min-width: 1280px) {
   footer {
     padding-top: 104px;
     padding-bottom: 32px;
