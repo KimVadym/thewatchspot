@@ -1,25 +1,22 @@
-
-
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   font-weight: 400;
 
   color: #141414;
   background-color:#fbfbfb;
-}
+} */
 
-.container {
+/* .container {
   padding: 0 20px;
   max-width: 100%;
-}
-
+} */
 
 .new-watch {
   padding-top: 40px;
@@ -45,10 +42,8 @@ body {
   line-height: 1.1;
   letter-spacing: -0.02em;
 
-  color: #141414;;
+  color: var(--main-color);
 }
-
-
 
 .new-watch-list {
   display: flex;
@@ -56,18 +51,18 @@ body {
   gap: 20px;
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     margin: 0 auto;
     max-width: 375px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0 32px;
+  /* .container {
+    padding: 0 32px; 
     max-width: 768px;
-  }
+  } */
   .new-watch {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -85,10 +80,10 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding: 0 12px;
+  /* .container {
+     padding: 0 12px; 
     max-width: 1200px;
-  }
+  }  */
   .new-watch {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -104,5 +99,3 @@ body {
     gap: 24px;
   }
 }
-
-
