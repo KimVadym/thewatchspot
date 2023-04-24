@@ -95,7 +95,7 @@ footer {
 }
 
 .social-footer-menu {
-    margin-top: 40px;
+   margin-top: 40px;
 }
 
 .footer-text {
@@ -140,6 +140,10 @@ footer {
   .footer-nav {
     gap: 142px;
   }
+  .social-footer-menu {
+   margin-top: 0;
+}
+
   .social-list {
     gap: 16px;
   }
