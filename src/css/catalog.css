@@ -8,7 +8,6 @@
   margin-bottom: 40px;
 }
 .text-catalog {
-
   /* font-family: 'Epilogue'; */
   /* font-style: normal; */
 
@@ -23,7 +22,6 @@
   overflow: hidden;
 }
 .text-price {
-
   /* font-family: 'Epilogue'; */
   /* font-style: normal; */
 
@@ -149,6 +147,7 @@
   .item-catalog {
     width: 336px;
   }
+
   .list-catalog {
     column-gap: 32px;
     row-gap: 40px;
