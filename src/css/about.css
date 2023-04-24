@@ -7,7 +7,7 @@
   font-family: "Epilogue", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 1.25px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: var(--text);
   margin-bottom: 40px;
@@ -23,13 +23,17 @@
   color: var(--main-color);
 }
 
-img {
+.about-gif {
   width: 335px;
 }
 
 @media screen and (max-width: 768px) {
   .about-text-item {
     margin-bottom: 20px;
+  }
+
+  .about-text-item:last-child {
+    margin-bottom: 0;
   }
 
   .about-text-list {
@@ -46,11 +50,16 @@ img {
   .about-title  {
     font-size: 40px;
     line-height: 1.10;
+    margin-bottom: 0;
+  }
+
+  .about-text-item {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  img {
+  .about-gif {
     width: 704px;
   }
 
@@ -88,7 +97,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  img {
+  .about-gif {
     width: 892px;
   }
 
