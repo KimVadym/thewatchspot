@@ -1,5 +1,4 @@
 .title-catalog {
-  /* font-family: 'Epilogue'; */
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -9,8 +8,10 @@
   margin-bottom: 40px;
 }
 .text-catalog {
+
   /* font-family: 'Epilogue'; */
   /* font-style: normal; */
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -22,8 +23,10 @@
   overflow: hidden;
 }
 .text-price {
+
   /* font-family: 'Epilogue'; */
   /* font-style: normal; */
+
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -47,8 +50,6 @@
   width: 100%;
 }
 .button-modal {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -56,9 +57,11 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: #1e2827;
+  border: none;
   border-radius: 8px;
   padding: 14px 28px;
   display: block;
+
   margin: 0 0 0 auto;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -69,8 +72,6 @@
 
 /* -------Флип-блок--------- */
 .title-card {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -80,20 +81,16 @@
   margin-bottom: 10px;
 }
 .text-card {
-  /* font-family: 'Epilogue';
-  font-style: normal; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
 }
-.text-description {
-  width: 162px;
-}
-.item-card {
+.text-card-box {
   margin-bottom: 14px;
 }
+
 .box {
   width: 100%;
   height: 360px;
@@ -125,37 +122,26 @@
   border-radius: 8px;
   padding: 40px 59px 40px 40px;
 }
-.button-box {
-  height: 24px;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  position: absolute;
-  top: 14px;
-  right: 14px;
-}
+
 .icon-box {
   fill: #1e2827;
   stroke: rgba(255, 255, 255, 0.5);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 14px;
+  right: 14px;
 }
 .icon-box:hover {
   fill: rgba(255, 255, 255, 0.8);
 }
+
 @media screen and (max-width: 1279px) {
   .item-catalog-tablet {
     display: none;
   }
 }
-/* @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-} */
+
 @media screen and (min-width: 768px) {
-  /* .container {
-    width: 744px;
-  } */
   .title-catalog {
     font-size: 40px;
     line-height: 1.1;
@@ -170,11 +156,11 @@
   .button-modal {
     padding: 18px 35px;
   }
+  .text-card-box {
+    margin-bottom: 16px;
+  }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    width: 1216px;
-  } */
   .title-catalog {
     margin-bottom: 64px;
   }
@@ -187,6 +173,9 @@
   }
   .list-catalog {
     margin-bottom: 80px;
+  }
+  .text-card-box {
+    margin-bottom: 20px;
   }
   .box {
     height: 325px;

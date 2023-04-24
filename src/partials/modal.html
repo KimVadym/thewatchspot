@@ -1,1 +1,60 @@
+<!--modal-window-with-backdrop-->
 
+<div class="modal__backdrop is-hidden" data-modal>
+  <div class="modal__window">
+      <button class="modal__buttonclose" data-modal-close>
+        <svg class="close__vectorsvg" width="12" height="12">
+          <use href="./img/mobile/modal/icons.svg#icon-vectorclose" 
+            class="chart-icon">
+          </use>
+        </svg>
+      </button>
+      <div class="modal_watch">        
+        <img class="modal_img"
+            srcset="./img/mobile/modal/woches@1x.jpg 1x, ./img/mobile/modal/woches@2x.jpg 2x, ./img/mobile/modal/woches@3x.jpg 3x" 
+            src="./img/mobile/modal/woches@1x.jpg.jpg"
+            alt="Watch S42" width="276" height="274">
+        <div class="modal_inner">
+          <h3 class="modal_wname">Tube Watch S42 Date Steel With Black Case</h3>
+          <p class="modal_wprice">€395</p>
+        </div>
+    </div><!-- class="modal_watch" --> 
+  
+    <!--modal-window-form-->
+  
+      <form action="placing-an-order" class="form">
+        
+          <label for="name" class="form__name">Full name</label>
+            <fieldset class="form__box"> 
+              <input type="text" name="username" id="name" required autofocus 
+              placeholder="Enter your full name" class="form__input">
+            </fieldset><!-- class="form__box" -->
+          <label for="mailbox" class="form__name">Email</label>
+            <fieldset class="form__box">
+              <input type="email" name="email" id="mailbox" required 
+              placeholder="Enter your email" class="form__input"> 
+            </fieldset><!-- class="form__box" -->
+          <label for="card" class="form__name">Card number</label>
+            <fieldset class="form__box">
+                <input type="text" name="card number" id="card" required
+                placeholder="Enter card" minlength="16" maxlength="16" class="form__input">
+            </fieldset><!-- class="form__box" -->
+          
+          <label for="coment" class="form__name">Comments</label>
+            <div class="form__coment"> 
+              <textarea name="feedback" rows="5" id="coment"
+              placeholder="Enter your text" class="form__text"></textarea>
+            </div><!-- class="form__coment" -->
+
+    <!-- modal-btn -->
+  
+          <button type="submit" class="form__buttonsend">
+            submit
+          </button>
+          <p class="form__paragraf">
+            By clicking on “Submit” button, you agree to our Privacy Policy, 
+            and allow Promodo to use this information for marketing purposes.
+          </p>
+      </form><!-- class="form" -->
+    </div><!-- class="modal__window" -->
+  </div><!-- class="modal__backdrop is-hidden" -->
