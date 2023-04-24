@@ -4,23 +4,29 @@
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #1e2827;
+  color: var(--bg-btn);
   margin-bottom: 40px;
 }
 .text-catalog {
-  font-style: normal;
+
+  /* font-family: 'Epilogue'; */
+  /* font-style: normal; */
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
+  color: var(--main-color);
   margin-bottom: 4px;
   margin-top: 14px;
   height: 18px;
   overflow: hidden;
 }
 .text-price {
-  font-style: normal;
+
+  /* font-family: 'Epilogue'; */
+  /* font-style: normal; */
+
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -61,7 +67,7 @@
 }
 .button-modal:hover,
 .button-modal:focus {
-  border: 1px solid #ffffff;
+  outline: 1px solid var(--text-white);
 }
 
 /* -------Флип-блок--------- */

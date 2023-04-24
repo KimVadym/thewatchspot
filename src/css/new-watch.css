@@ -1,4 +1,25 @@
 
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #141414;
+  background-color:#fbfbfb;
+} */
+
+/* .container {
+  padding: 0 20px;
+  max-width: 100%;
+} */
+
+
 .new-watch {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -23,10 +44,10 @@
   line-height: 1.1;
   letter-spacing: -0.02em;
 
-  color:var(--main-color);
+
+  color: var(--main-color);
+
 }
-
-
 
 .new-watch-list {
   display: flex;
@@ -35,7 +56,22 @@
 }
 
 
+/* @media screen and (min-width: 375px) {
+  .container {
+    margin: 0 auto;
+    max-width: 375px;
+  }
+} */
+
 @media screen and (min-width: 768px) {
+  /* .container {
+    padding: 0 32px; 
+    max-width: 768px;
+  } */
+
+
+@media screen and (min-width: 768px) {
+
   .new-watch {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -53,6 +89,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  /* .container {
+     padding: 0 12px; 
+    max-width: 1200px;
+  }  */
+
   .new-watch {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -68,5 +110,3 @@
     gap: 24px;
   }
 }
-
-

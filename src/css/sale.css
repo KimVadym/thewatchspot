@@ -19,12 +19,13 @@
 }
 
 :first-child.item-sale-watch {
-  background-color: #141414;
+
+  background-color: var(--main-color);
 
 }
 
 .sale-watch-big {
-  background-color: #141414;
+  background-color: var(--main-color);
 }
 
 .item-sale-watch:not(:last-child){
@@ -89,7 +90,7 @@
   content: '';
   width: 100%;
   height: 1px;
-  background-color: #141414;
+  background-color: var(--main-color);
   margin-bottom: 8px;
 }
 
@@ -113,7 +114,8 @@
   content: '';
   width: 16px;
   height: 1px;
-  background-color: #141414;
+
+  background-color: var(--main-color);
 
 }
 
