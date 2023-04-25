@@ -1,0 +1,20 @@
+#go-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+  display: none;
+  padding: 20px 10px;
+  background-color: transparent;
+  background-image: url(../img/shift.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  z-index: 1;
+}
+
+#go-top:hover {
+  outline: 1px solid #1e2827;
+  border-radius: 8px;
+  box-shadow: 1px 1px 11px 2px #1e2827;
+}
