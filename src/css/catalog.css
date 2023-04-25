@@ -1,3 +1,7 @@
+.section-catalog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .title-catalog {
   font-style: normal;
   font-weight: 600;
@@ -8,9 +12,6 @@
   margin-bottom: 40px;
 }
 .text-catalog {
-  /* font-family: 'Epilogue'; */
-  /* font-style: normal; */
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -22,9 +23,6 @@
   overflow: hidden;
 }
 .text-price {
-  /* font-family: 'Epilogue'; */
-  /* font-style: normal; */
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -140,6 +138,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-catalog {
+    padding-top: 0;
+    padding-bottom: 64px;
+  }
   .title-catalog {
     font-size: 40px;
     line-height: 1.1;
@@ -160,6 +162,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .section-catalog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .title-catalog {
     margin-bottom: 64px;
   }
