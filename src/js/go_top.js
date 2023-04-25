@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $('body').append('<a href="#" id="go-top" title="top"></a>');
+  var goTop = $('<a>').attr({id: 'go-top', href: '#', title: 'top'});
+  goTop.appendTo('.container');
 });
 
 $(function() {
