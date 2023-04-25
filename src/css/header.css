@@ -34,11 +34,12 @@
 
 .header-logo {
   display: block;
+  padding: 5px 0;
   transition: 200ms linear;
 }
 
 .header-logo:is(:hover, :focus) {
-  scale: 1.1;
+  scale: 1.4;
   text-shadow: 0 0 5px var(--text-white);
 }
 
@@ -71,6 +72,10 @@
     align-items: center;
   }
 
+  .header-logo {
+    padding: 14px 0;
+  }
+
   .header-logo-text {
     font-size: 15px;
   }
@@ -98,10 +103,11 @@
 
   .header-nav-link {
     display: block;
+    padding: 18px 0;
   }
 
   .header-nav-link:is(:hover, :focus, :active) {
-    scale: 1.2;
+    scale: 2 1.5;
     text-shadow: 0 0 5px var(--text-white);
   }
 
@@ -115,7 +121,7 @@
 
   .header-tel:is(:hover, :focus) {
     outline: 1px solid var(--text-white);
-    scale: 1.1;
+    scale: 1.2;
     text-shadow: 0 0 2px var(--text-white);
   }
 
