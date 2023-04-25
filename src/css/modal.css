@@ -64,6 +64,7 @@
                 column-gap: 0px;
                 padding: 40px 20px;
                 overflow: scroll;
+                height: 100vh;
             }
         }
         @media (max-width: 376px) {
@@ -106,14 +107,12 @@
             }
             .modal__buttonclose:hover .close__vectorsvg,
             .modal__buttonclose:focus .close__vectorsvg,
-            .modal__buttonclose:active .close__vectorsvg{
-                fill: #1E2827;
-                stroke: 0 0 6px 2px rgba(37, 36, 36, 0.5);
+            .modal__buttonclose:active .close__vectorsvg {
+                height: 15px;
+                width: 15px;
             }
                 .close__vectorsvg {
                     fill: #141414;
-                    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 } 
                 .modal_watch {
                     display: flex;
