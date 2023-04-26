@@ -1,6 +1,7 @@
 .section-catalog {
   padding-top: 40px;
   padding-bottom: 40px;
+  overflow: hidden;
 }
 .title-catalog {
   font-style: normal;
