@@ -5,7 +5,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/thewatchspot/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/thewatchspot/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/thewatchspot/favicon-16x16.png" />
-    <link rel="manifest" href="/src/public/site.webmanifest" />
+    <!-- <link rel="manifest" href="/src/public/site.webmanifest" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -13,7 +13,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="/js/go_top.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
     <title>thewatchspot</title>
     
     <script type="module" crossorigin src="/thewatchspot/assets/index-6bb82a72.js"></script>
@@ -218,7 +218,7 @@
       <section id="about" class="about">
   <div class="container about-container">
     <div class="first">
-      <h2 class="about-title" data-aos="zoom-out-down">About us</h2>
+      <h2 class="about-title" data-aos="fade-up">About us</h2>
     </div>
     <div class="second">
       <ul class="about-text-list">
@@ -244,25 +244,23 @@
     <div class="third">
       <picture>
         <source media="(max-width: 768px)" srcset="/thewatchspot/assets/watchspot-00257ed5.gif " />
-
+        <source
+          media="(max-width: 768px)"
+          srcset="/thewatchspot/assets/watchspot-3726893c.webp "
+          type="image/webp"
+        />
         <source media="(min-width: 769px)" srcset="/thewatchspot/assets/watchspot-00257ed5.gif " />
+        <source
+          media="(min-width: 769px)"
+          srcset="/thewatchspot/assets/watchspot-3726893c.webp "
+          type="image/webp"
+        />
         <img
           class="about-gif"
           src="/thewatchspot/assets/watchspot-00257ed5.gif"
           alt="watch"
           width="100%"
           height="auto"
-        />
-        <source
-          media="(max-width: 768px)"
-          srcset="/thewatchspot/assets/watchspot-3726893c.webp "
-          type="image/webp"
-        />
-
-        <source
-          media="(min-width: 769px)"
-          srcset="/thewatchspot/assets/watchspot-3726893c.webp "
-          type="image/webp"
         />
       </picture>
 
@@ -279,7 +277,7 @@
 
       <section id="catalog" class="section-catalog">
   <div class="container">
-    <h2 class="title-catalog" data-aos="zoom-out-down">Catalog</h2>
+    <h2 class="title-catalog" data-aos="fade-up">Catalog</h2>
     <ul class="list-catalog">
       <li class="item-catalog">
         <a href="" class="catalog-link">
@@ -919,7 +917,7 @@
       <section class="new-watch">
   <div class="container">
     <h2 class="new-watch-first">New watches</h2>
-    <h3 class="new-watch-second" data-aos="zoom-out-down">
+    <h3 class="new-watch-second" data-aos="fade-up">
       Green And Bronze—The Match Made In Heaven
     </h3>
     <ul class="new-watch-list">
@@ -1015,7 +1013,7 @@
 
       <section class="sale" id="sale">
   <div class="container">
-    <h2 class="title-sale" data-aos="zoom-out-down">Sale</h2>
+    <h2 class="title-sale" data-aos="fade-up">Sale</h2>
     <div class="sale-box">
       <div class="sale-watch">
         <div class="sale-watch-aspect">
@@ -1290,9 +1288,9 @@
 
 
     
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>
+    </script> -->
   </body>
 </html>
